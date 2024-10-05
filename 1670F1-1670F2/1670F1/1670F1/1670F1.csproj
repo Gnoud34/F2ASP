@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-_1670F1-06715911-50aa-4ca9-aa1c-3f2aa85d85ef</UserSecretsId>
+    <RootNamespace>_1670F1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20241003075357_FirstMigration.cs" />
+    <Compile Remove="Data\Migrations\20241003075357_FirstMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20241003075705_AddApplication.cs" />
+    <Compile Remove="Data\Migrations\20241003075705_AddApplication.Designer.cs" />
+    <Compile Remove="Data\Migrations\20241003082634_FirstMigration.cs" />
+    <Compile Remove="Data\Migrations\20241003082634_FirstMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20241003082942_FirstMigration.cs" />
+    <Compile Remove="Data\Migrations\20241003082942_FirstMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20241004095218_SecondMigration.cs" />
+    <Compile Remove="Data\Migrations\20241004095218_SecondMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20241004101050_ThirdMigration.cs" />
+    <Compile Remove="Data\Migrations\20241004101050_ThirdMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20241004134822_Gender.cs" />
+    <Compile Remove="Data\Migrations\20241004134822_Gender.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.32" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
